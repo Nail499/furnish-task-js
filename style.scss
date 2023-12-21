@@ -84,3 +84,102 @@
         }
     }
 }
+
+.s2{
+    width: 100%;
+    margin: auto;
+    padding: 8px 0;
+    .boxes{
+        width: 100%;
+        padding: 0 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+        .box1{
+            width: 24.7%;
+            background-color: rgba(255, 0, 0, 0.107);
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            .icon{
+                font-size: 37px;
+                color: white;
+                background-color: #CB9696;
+                width: 20%;
+                border-radius: 9999px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding-left: 4px;
+                padding-right: 4px;
+               
+            }
+            .text{
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                p{
+                    color: #808080;
+                }
+                h1{
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+
+
+.s3{
+    width: 100%;
+    background-image: url(https://preview.colorlib.com/theme/furnish/images/bg_4.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .s3-in{
+        width: 100%;
+        margin: auto;
+        padding: 140px 0;
+        display: flex;
+        justify-content: right;
+        align-items: end;
+        .text{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            h4{
+                font-size: 14px;
+                letter-spacing: 1px;
+                font-weight: 500;
+                color: #808080;
+            }
+            h1{
+                font-size: 36px;
+                font-weight: 500;
+            }
+            p{
+                font-size: 16px;
+                color: #808080;
+            }
+            .play{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                color: #CF7500;
+                gap: 20px;
+                .ply-btn{
+                    font-size: 69px;
+                }
+                h1{
+                    font-size: 18px;
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+}
